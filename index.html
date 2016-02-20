@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+    <title>Bulls &amp cows</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main">
+    <div class="bull"></div>
+    <div class="cow"></div>
+    <h1>Bulls &amp Cows</h1>
+    <table class="tbl_result">
+        <thead>
+        <tr>
+            <th colspan="3">History</th>
+        </tr>
+        <tr>
+            <td>Number</td>
+            <td>Bulls</td>
+            <td>Cows</td>
+        </tr>
+        </thead>
+        <tbody id="user">
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <div class="control">
+        <input type="text" value="" id="user_num" placeholder="Enter the number">
+        <input type="button" class="myButton" value="   OK  " id="set_number" disabled="disabled">
+    </div>
+    <div class="control">
+        <div id="hide-info-block">Number has been generated</div>
+        <input type="button" class="myButton" value="Begin" id="start_game">
+    </div>
+</div>
+<script src="bull.js"></script>
+</body>
+</html>
